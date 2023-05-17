@@ -7,5 +7,15 @@ def do_something():
 
 class TestNumberGenerator(unittest.TestCase):
 
+    def test_is_divisible_by_three:
+        return True
+
+    def test_is_divisible_by_five:
+        return True
+
+    def test_is_divisible_by_three_and_five:
+        return True
+
     def test_something_that_can_be_done(self):
         return True
+
