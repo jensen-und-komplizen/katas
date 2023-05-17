@@ -1,8 +1,9 @@
 import unittest
 
 
-def do_fizz_buzz():
-    pass
+def do_fizz_buzz(number_input: int):
+    return "fizz"
+
 
 
 class TestNumberGenerator(unittest.TestCase):
