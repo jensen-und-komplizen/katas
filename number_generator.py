@@ -4,6 +4,8 @@ import unittest
 def do_something():
     pass
 
+def ttt():
+    pass
 
 class TestNumberGenerator(unittest.TestCase):
 
