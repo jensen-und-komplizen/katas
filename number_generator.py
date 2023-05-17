@@ -15,3 +15,6 @@ class TestNumberGenerator(unittest.TestCase):
 
     def test_buzz(self):
         self.assertEqual(do_fizz_buzz(5), "buzz")
+
+    def test_fizzbuzz(self):
+        self.assertEqual(do_fizz_buzz(15), "fizzbuzz")
