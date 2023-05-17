@@ -1,11 +1,9 @@
 import unittest
 
-
 def divisible(n:int) -> str:
     if n % 3 == 0:
         return "fizz"
-    else:
-        return str(int)
+    return str(int)
 
 
 class TestNumberGenerator(unittest.TestCase):
