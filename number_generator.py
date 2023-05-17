@@ -2,8 +2,10 @@ import unittest
 
 
 def do_fizz_buzz(number_input: int):
-    return "fizz"
-
+    if number_input % 3 == 0:
+        return "fizz"
+    if number_input % 5 == 0:
+        return "buzz"
 
 
 class TestNumberGenerator(unittest.TestCase):
