@@ -2,6 +2,8 @@ import unittest
 
 
 def do_fizz_buzz(number_input: int):
+    if ((number_input % 5) + (number_input % 3)) == 0:
+        return "fizzbuzz"
     if number_input % 3 == 0:
         return "fizz"
     if number_input % 5 == 0:
