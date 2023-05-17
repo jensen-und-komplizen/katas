@@ -4,8 +4,8 @@ import unittest
 def do_something():
     pass
 
-def ttt():
-    pass
+def generate_fizzbus_string(list):
+    return list
 
 class TestNumberGenerator(unittest.TestCase):
 
@@ -13,4 +13,4 @@ class TestNumberGenerator(unittest.TestCase):
         return True
 
     def test_fizz(self):
-        self.assertTrue(type(ttt()) == str)
+        self.assertTrue(type(generate_fizzbus_string()) == str)
