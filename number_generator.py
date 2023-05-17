@@ -3,6 +3,8 @@ import unittest
 
 def do_something():
     pass
+def make_fizz():
+    return 0
 
 
 class TestNumberGenerator(unittest.TestCase):
