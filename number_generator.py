@@ -12,3 +12,6 @@ class TestNumberGenerator(unittest.TestCase):
 
     def test_something_that_can_be_done(self):
         return True
+
+    def test_is_divisible_by_five:
+        return True
