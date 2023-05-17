@@ -20,3 +20,9 @@ class TestNumberGenerator(unittest.TestCase):
 
     def test_fizzbuzz(self):
         self.assertEqual(do_fizz_buzz(15), "fizzbuzz")
+
+    def test_negative_number(self):
+        self.assertEqual(do_fizz_buzz(-5), "buzz")
+
+    def test_wrong_input_type(self):
+        self.assertEqual(do_fizz_buzz("5"), Exception())
