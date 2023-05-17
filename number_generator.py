@@ -14,3 +14,6 @@ class TestNumberGenerator(unittest.TestCase):
 
     def test_fizz(self):
         self.assertTrue(type(generate_fizzbus_string()) == str)
+
+    def test_buzz(self):
+        self.assertTrue(generate_fizzbus_string() % 5 == 0)
